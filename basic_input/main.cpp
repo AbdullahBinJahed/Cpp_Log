@@ -2,10 +2,10 @@
 
 int main()
 {
-  int x;
-  std::cout << "Enter a number: ";
-  std::cin >> x;
-  std::cout << "You have entered " << x << std::endl;
+  char name[] = "";
+  std::cout << "Enter your name: ";
+  std::cin >> name;
+  std::cout << name << "-sama, yoiichinichiwo" << std::endl;
 
   return 0;
 }
