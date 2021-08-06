@@ -8,4 +8,4 @@ int main()
   std::cout << name << "-sama, yoiichinichiwo" << std::endl;
 
   return 0;
-} 
+}
