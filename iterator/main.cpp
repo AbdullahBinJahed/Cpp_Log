@@ -10,5 +10,6 @@ int main()
     auto it = s.begin();
     *it = std::toupper(*it);
   }
+
   return 0;
 }
