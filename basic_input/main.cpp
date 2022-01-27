@@ -2,7 +2,7 @@
 
 int main()
 {
-  char name[] = "";
+  char name[1024] = "";
   std::cout << "Enter your name: ";
   std::cin >> name;
   std::cout << name << "-sama, yoiichinichiwo" << std::endl;
